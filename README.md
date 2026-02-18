@@ -1,6 +1,8 @@
-## Frappe Enhanced Gridview
+## MY ERPNext Customization
 
-Frappe Grid view with scrollablee child table and allow more than 10 columns
+Here lies all my customizations that I did on ERPNext, which also includes some doctypes and scripts that I created. 
+
+I also included frappe_enhanced_gridview with scrollable extended child table, originally made by nesscale-com.
 
 #### License
 
