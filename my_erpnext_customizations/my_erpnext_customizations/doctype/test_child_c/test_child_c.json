@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-02-02 12:53:25.491499",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_fyqg",
+  "id",
+  "name1",
+  "contacts",
+  "rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_fyqg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "ID"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "contacts",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Contacts"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Rate"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-02-02 12:54:42.723169",
+ "modified_by": "Administrator",
+ "module": "Frappe Enhanced Gridview",
+ "name": "Test Child C",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

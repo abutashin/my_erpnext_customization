@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-02-17 14:31:48.007459",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_74zr",
+  "item_code",
+  "required_qty",
+  "company_projected_qty",
+  "to_order_qty",
+  "ordered_qty",
+  "pending_to_order_qty"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_74zr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "label": "item_code",
+   "options": "Item"
+  },
+  {
+   "fieldname": "required_qty",
+   "fieldtype": "Float",
+   "label": "required_qty"
+  },
+  {
+   "fieldname": "company_projected_qty",
+   "fieldtype": "Float",
+   "label": "company_projected_qty",
+   "read_only": 1
+  },
+  {
+   "fieldname": "to_order_qty",
+   "fieldtype": "Float",
+   "label": "to_order_qty",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ordered_qty",
+   "fieldtype": "Float",
+   "label": "ordered_qty",
+   "read_only": 1
+  },
+  {
+   "fieldname": "pending_to_order_qty",
+   "fieldtype": "Float",
+   "label": "pending_to_order_qty",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-02-17 14:41:43.407222",
+ "modified_by": "Administrator",
+ "module": "Frappe Enhanced Gridview",
+ "name": "Boss Purchase Request Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
